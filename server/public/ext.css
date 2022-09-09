@@ -1,0 +1,42 @@
+.x-hide-header .x-base-header {
+  display: none !important;
+}
+.x-hide-header .x-base-main {
+  padding-top: 0;
+}
+.x-hide-header .x-base-main .containers-detail-sider {
+  top: 20px;
+}
+.x-hide-header .x-base-main .console-containers-dashboard-header,
+.x-hide-header .x-base-main .clusters-clustertitle-wrapper,
+/*.x-hide-side .x-base-main .containers-detail-sider,*/
+.x-hide-header .kube-tools {
+  display: none !important;
+}
+.x-hide-side .x-base-main > .ks-page > .ks-page-side {
+  display: none !important;
+}
+/*
+.x-hide-side .x-base-main .containers-detail-content {
+  padding-left: 20px;
+}
+*/
+.x-hide-side .x-base-main > .ks-page > .ks-page-main {
+  margin-left: 0;
+}
+
+.x-hide-title .x-cards-banner-title {
+  display: none !important;
+}
+
+.x-hide-title .x-overview-title {
+  display: none !important;
+}
+
+.x-hide-title .x-overview-service-components {
+  display: none !important;
+}
+
+.x-hide-title .x-overview-cluster-info {
+  display: none !important;
+}
