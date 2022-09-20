@@ -77,7 +77,6 @@ const config = {
       },
       {
         test: /\.(ttf|otf|eot|woff2?)(\?.+)?$/,
-        include: root('src/assets'),
         use: {
           loader: 'file-loader',
         },
@@ -94,13 +93,13 @@ const config = {
         },
         // 它会应用到普通的 `.css` 文件
         // 以及 `.vue` 文件中的 `<style>` 块
-        {
+        /*{
             test: /\.css$/,
             use: [
                 'vue-style-loader',
                 'css-loader'
             ]
-        }
+        }*/
     ],
   },
   optimization: {
